@@ -7,18 +7,28 @@
   <title>Log In Canarinho</title>
 </head>
 <body>
-  <p>Realize seu login para acesso à plataforma!</p>
-  <p>Acessar plataforma</p>
-  <p>Testando proteção da branch master</p>
-  <p>Testando proteção da branch master - 2a tentativa</p>
-  <p>Testando proteção da branch master - 3a tentativa</p>
-  <p>Acessar plataforma</p>
+
+  <form>
+    
+    <label for="email-input">Informe o email cadastrado</label>
+    <br>
+    <input id="email-input">
+    <br><br>
+    <label for="senha-input">Informe sua senha</label>
+    <br>
+    <input id="senha-input"> 
+    <br><br>
+    <button type="submit" id="submit-btn">Recuperar senha</button> 
+
+  </form>
   
 
 
   
   
 
-  
+  <script src="/src/front/models/email-model.js"></script>
+  <script src="/src/front/views/email-view.js"></script>
+  <script src="/src/front/controllers/email-controller.js"></script>
 </body>
 </html>
