@@ -1,0 +1,33 @@
+body {
+    background-image:url("../img/wings.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.descricao{
+    margin: 20px;
+    margin-left: 700px;
+    padding: 40px;
+    font-size: xx-small;
+    font-style: italic;
+    background-color: rgba(255, 136, 249, 0.194);
+    color:rgb(255, 255, 131);
+    /* border-style: solid;
+    border: black; */
+    border-radius: 50px;
+}
+.fonte{
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+.cor-fundo{
+    background-color:rgb(255, 245, 130);
+}
+.precadastro{
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue;
+}
+.link{
+    text-decoration: none;
+}
