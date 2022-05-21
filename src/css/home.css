@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(25, 24, 36);
+}
+.descricao{
+    font-size: xx-small;
+    font-style: italic;
+    background-color: rgb(25, 24, 36);
+    color:gold;
+    /* border-style: solid;
+    border: black; */
+    border-radius: 50px;
+}
+.fonte{
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    color: gold;
+}
+.precadastro{
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue;
+}
+.link{
+    text-decoration: none;
+}
+.cor-fundo{
+    background-color: blanchedalmond;
+}
