@@ -1,14 +1,20 @@
 body{
     background-color: rgb(25, 24, 36);
 }
+/* navbar */
+/* .navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.style{
+   background-color: rgb(25, 24, 36); 
+   border-color: rgb(25, 24, 36);
+} */
 .descricao{
-    font-size: xx-small;
-    font-style: italic;
-    background-color: rgb(25, 24, 36);
+    margin: 35px;
     color:gold;
-    /* border-style: solid;
-    border: black; */
-    border-radius: 50px;
+    text-align: justify;
+    
 }
 .fonte{
     font-family: 'Pacifico', cursive;
@@ -19,10 +25,17 @@ body{
     text-align: center;
     text-decoration: none;
     color:aliceblue;
+    background-color: #348974;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
 }
 .link{
     text-decoration: none;
 }
 .cor-fundo{
     background-color: blanchedalmond;
+}
+.cor-texto{
+    color: goldenrod;
 }
