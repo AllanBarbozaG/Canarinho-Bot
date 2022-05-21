@@ -1,4 +1,5 @@
 class EmailModel {
+  
   constructor(email) {
     
     try {
@@ -19,10 +20,10 @@ class EmailModel {
         this.email = email;
         console.log(`email: ${this.email} validado com sucesso!`);
       } else {
-        throw new Error(`email: ${thos.email}  inválido!`);
+        throw new Error(`email: ${email}  inválido!`);
       }
     } catch(erro) {
-      console.log(erro)
+      console.error(erro)
     }
   }
 }
