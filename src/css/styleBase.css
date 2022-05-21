@@ -1,16 +1,22 @@
 *{
     margin:0;
     padding: 0;
+    font-family: 'Questrial', sans-serif;;
+}
+body{
     background-color: rgb(25, 24, 36);
 }
-.navInfo{
-    text-decoration: none;
-    color: aqua;
+.funcionamentoDoProduto{
+    background-color: rgb(25, 24, 36);
 }
-
 #logoCanarinho{
-    margin:0;
-    padding: 0;
+        margin:0;
+        padding: 0;
+    }
+.descricao-produto{
+    margin-left: 30px;
+    margin-right: 30px;
+    
 }
 #subtitle-EscolhaSeuPlano{
     margin-top:20px;
