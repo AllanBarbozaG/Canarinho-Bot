@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: rgb(25, 24, 36);
+}
+.navInfo{
+    text-decoration: none;
+    color: aqua;
+}
+
+#logoCanarinho{
+    margin:0;
+    padding: 0;
+}
+#subtitle-EscolhaSeuPlano{
+    margin-top:20px;
+    text-align: center;
+    display: flex; flex-direction: column; justify-content: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-posicao-imagem{
+    margin: 10px;
+    height: 80vh;
+    width: 80vw;
+}
+.plano-beneficios{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+}
+.beneficios-do-plano{
+    margin: 0;
+
+}
