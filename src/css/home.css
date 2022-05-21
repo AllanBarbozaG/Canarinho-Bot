@@ -11,10 +11,12 @@ body{
    border-color: rgb(25, 24, 36);
 } */
 .descricao{
-    margin: 35px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     color:gold;
     text-align: justify;
-    
 }
 .fonte{
     font-family: 'Pacifico', cursive;
@@ -38,4 +40,5 @@ body{
 }
 .cor-texto{
     color: goldenrod;
+    text-decoration: none;
 }
