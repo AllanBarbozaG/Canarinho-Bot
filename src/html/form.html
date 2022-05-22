@@ -50,7 +50,7 @@
 
     <main>
         <form>
-            <h3>Viva essa experiência e vá além em seus streams</h3><br>
+            <h4>Viva essa experiência e vá além em seus streams</h4>
             <h1>INSCREVA-SE</h1>
 
     <!--Dados pessoais-->
@@ -68,7 +68,6 @@
                         <input id="rg" type="text" name="rg" maxlength="13" required>
                     </div>
                 </div>
-                    <br>
 
     <!--Dados de login-->
                 <div class="containerForm">
@@ -87,14 +86,17 @@
                 </div>
 
     <!--Dados de endereço-->
-                    <div id="cep">
+                <div class="containerForm">
+                    <div class="campoForm cep">
                         <label>Informe o CEP:</label>
-                        <input id="cep" type="text" name="cep" required>
-                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep">Pesquisar Cep:</button>
+                        <input id="cep" type="text" name="cep" maxlength="8" pattern="[0-9]{8}" required>
                     </div>
-
-                    <div class="containerForm">
-                        <div class="campoForm">
+                    <div class="campoForm cep">
+                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep">Pesquisar Cep</button>
+                    </div>
+                </div>
+                <div class="containerForm">
+                    <div class="campoForm">
                         <label>Rua</label>
                         <input id="rua" type="text" name="rua" required>
                     </div>
@@ -104,7 +106,7 @@
                     </div>
                     <div class="campoForm">
                         <label>Complemento</label>
-                        <input id="complemento" type="text" name="complemento" required><br>
+                        <input id="complemento" type="text" name="complemento" required>
                     </div>
                 </div>
 
@@ -123,37 +125,51 @@
                     </div>
                 </div>
 
-    <!--Sobre os tipos de planos-->
-                <div class="containerPlan">
-                    <p>Qual plano de interesse:</p>
-                        <div class="campoForm">
-                            <input id="pro" type="radio" name="planos" value="plano pro">
-                            <label>Plano Pro</label>
+        <!--Sobre os tipos de planos-->
+                <div class="containerForm">
+                    <div class="imagem">
+                        <img id="gamer" src="../img/gamer.png" alt="gamer">
+                    </div>
+                    <div id="planosContainer">
+                        <div class="containerForm">
+                            <div class="campoForm top">
+                                <p>Qual plano de interesse:</p>
+                                <p>
+                                    <input id="pro" type="radio" name="planos" value="plano pro">
+                                    <label for="pro">Plano Pro</label>
+                                </p>
+                                <p>
+                                    <input id="basic" type="radio" name="planos" value="plano basic">
+                                    <label for="basic">Plano Basic</label>
+                                </p>
+                                <p>
+                                    <input id="kids" type="radio" name="planos" value="plano kids">
+                                    <label for="kids">Plano Kids</label>
+                                </p>
+                            </div>
+                            <div class="campoForm top">
+                                <p>Qual o tipo de assinatura:</p>
+                                <p>
+                                    <input id="mensal" type="radio" name="assinatura" value="plano mensal">
+                                    <label for="mensal">Plano Mensal</label>
+                                </p>
+                                <p>
+                                    <input id="anual" type="radio" name="assinatura" value="plano anual">
+                                    <label for="anual">Plano Anual</label>
+                                </p>
+                            </div>
                         </div>
-                        <div class="campoForm">
-                            <input id="basic" type="radio" name="planos" value="plano basic">
-                            <label>Plano Basic</label>
+                        <div class="containerForm">
+                            <div class="campoForm">
+                                <button type="submit" class="btn btn-outline-warning .col-6 .mx-auto">Enviar</button>
+                            </div>
+                            <div class="campoForm">
+                                <button type="reset" class="btn btn-outline-warning .col-6 .mx-auto">Limpar</button>
+                            </div>
                         </div>
-                        <div class="campoForm">
-                            <input id="kids" type="radio" name="planos" value="plano kids">
-                            <label>Plano Kids</label>
-                        </div>
+                    </div>
                 </div>
 
-                <div class="containerPlan">
-                    <p>Qual o tipo de assinatura:</p>
-                    <div class="campoForm">
-                        <input id="mensal" type="radio" name="assinatura" value="plano mensal">
-                        <label>Plano Mensal</label>
-                    </div>
-                    <div class="campoForm">
-                        <input id="anual" type="radio" name="assinatura" value="plano anual">
-                        <label>Plano Anual</label>
-                    </div>
-                    <img id="gamer" src="../img/gamer.png">
-                    <button type="submit" class="btn btn-outline-warning .col-6 .mx-auto">Enviar</button>
-                    <button type="reset" class="btn btn-outline-warning .col-6 .mx-auto">Limpar</button>
-                </div>
         </form>
     </main>
 <script src="../js/form.js"></script>

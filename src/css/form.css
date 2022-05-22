@@ -1,58 +1,84 @@
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(25, 24, 36);
     font-family: 'Nunito', sans-serif;
-    font-size: x-large;
+    font-size: medium;
     color: #FFDB1D;
 }
 
+/*Formulário*/
 main {
     display: flex;
+    width: 50vw;
+    margin: 0 auto;
     background-color: rgb(25, 24, 36);
     margin: 5% auto;
     padding: 5% 10;
 }
 
-.containerForm, .containerPlan {
+.containerForm {
     display: flex;
-    flex-wrap: wrap;
-    color: whitesmoke;
-    font-size: 20px;
+    flex-direction: row;
     margin-bottom: 24px;
-    position: relative;
-    width: 100%;
-    padding: 16px;
-    border: none;
-    box-sizing: content-box;
-    outline: none;
-    border-radius: 89%;
 }
 
 .campoForm {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    padding: 8px;
 }
 
-#cep {
-    display: flex;
+.campoForm label {
     color: whitesmoke;
-    font-size: 20px;
-
+    font-size: 1em;
 }
 
-input {
+.campoForm input {
+    box-sizing: content-box;
+    outline: none;
     border-radius: 15px;
     border-color: #FFDB1D;
     background-color: transparent;
     color: whitesmoke;
 }
 
-#gamer {
-    width: 100px;
+.campoForm.top {
+    justify-content: flex-start;
 }
+
+.campoForm.cep {
+    flex-grow: 0;
+}
+
+#cepForm {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#cepForm input {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.imagem{
+    width: 300px;
+}
+
+#gamer {
+    max-width: 100%;
+    object-fit:contain ;
+}
+
+#planoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 /*botoes*/
 .link {
     text-decoration: none;
