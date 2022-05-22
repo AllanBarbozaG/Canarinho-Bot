@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 24, 36);
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    color: #FFDB1D;
+}
+
+main {
+    display: flex;
+    background-color: rgb(25, 24, 36);
+    margin: 5% auto;
+    padding: 5% 10;
+}
+
+.containerForm, .containerPlan {
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    box-sizing: content-box;
+    outline: none;
+    border-radius: 89%;
+}
+
+.campoForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#cep {
+    display: flex;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+input {
+    border-radius: 15px;
+    border-color: #FFDB1D;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+#gamer {
+    width: 100px;
+}
+/*botoes*/
+.link {
+    text-decoration: none;
+}
+.cor-fundo {
+    background-color: blanchedalmond;
+}
+.cor-texto {
+    color: #FFDB1D;
+    text-decoration: none;
+}
