@@ -92,7 +92,8 @@
                         <input id="cep" type="text" name="cep" maxlength="8" pattern="[0-9]{8}" required>
                     </div>
                     <div class="campoForm cep">
-                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep">Pesquisar Cep</button>
+                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep" onclick="consultarCep()">Pesquisar Cep</button>
+                        <div id="return"></div>
                     </div>
                 </div>
                 <div class="containerForm">
@@ -172,8 +173,10 @@
 
         </form>
     </main>
-<script src="../js/form.js"></script>
 
+<script src="../front/models/listaEsperaModel.js"></script>
+<script src="../front/controllers/listaEsperaController.js"></script>
+<script src="../front/view/listaEsperaView.js"></script>
 </body>
 </html>
 

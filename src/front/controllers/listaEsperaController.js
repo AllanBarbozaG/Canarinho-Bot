@@ -1,0 +1,45 @@
+class ListaEsperaController {
+    cadastros = [];
+    
+    input(selector) {
+      return document.querySelector(`#${selector}`).value;
+    }
+    
+    cadastrar() {
+      try {
+        const pessoa = new Pessoa;
+        const endereco = new Endereco;
+  
+        pessoa.nome = this.input("nome");
+        pessoa.sobrenome = this.input("sobrenome");
+        
+        endereco.cep = this.input("cep");
+        endereco.rua = this.input("rua");
+        endereco.bairro = this.input("bairro");
+        endereco.cidade = this.input("cidade");
+        endereco.estado = this.input("estado");
+        
+        this.cadastros.push({
+          pessoa: pessoa.mostrar(),
+          endereco: endereco.mostrar()
+        })
+        
+        console.log(this.cadastros);
+      } catch (error) {
+        console.log(`Um erro foi encontrado: ${error.message}`);
+      }
+    }
+    
+    buscarCep(cep) {
+      const url = `https://viacep.com.br/ws/${cep}/json/`;
+      fetch(url)
+        .then(response => response.json())
+        .then(json => {
+          const view = new ListaEsperaView();
+          view.renderEndereco(json);
+        })
+        .catch(response => {
+          
+        })
+    }
+  }
