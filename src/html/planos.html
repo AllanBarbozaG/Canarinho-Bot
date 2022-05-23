@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleBase.css">
+    <link rel="stylesheet" href="/Canarinho-Bot/src/css/styleBase.css">
+    <link rel="stylesheet" href="/Canarinho-Bot/src/css/mediaQuery.css">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+          font-family: Peace Sans;
+          src: url("Peace Sans.otf") format('opentype'), url("Peace Sans Webfont.ttf") format('truetype');
+          font-weight: normal; font-style: normal;
+      } </style>
     <title>Canarinho</title>
 </head>
 <body>
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-default bg-dark fixed style">
       <div class="container-fluid">
         <img id="logoCanarinho" src="../img/CanarinhoBotSized.png" width="225" class="d-inline-block align-text-top .ms-n1">
@@ -20,10 +27,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link cor-texto"  href="#">Home</a>
+              <a class="nav-link cor-texto" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active cor-texto" aria-current="page"  href="#">Quem Somos</a>
+              <a class="nav-link active cor-texto" aria-current="page" href="#" id="currentpage">Quem Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link cor-texto" href="#">Inscreva-se</a>
@@ -38,75 +45,74 @@
     </nav>
   </header>
 
-      <section class="inforEimg">
-        <div class="funcionamentoDoProduto">
-          <br></br>
-          <h2 class="text-center"> Como funcionamos? </h2>
-          <div class="descricao-produto">
-            <p class="text-center"> Somos uma extensão de gerenciamento de lives compatível com as melhores plataformas atuais. 
-            Suas contas serão vinculadas e num clique conectados pelo navegador! Sem precisar baixar, nosso site te dá controle e facilidade num lugar só. </p>
-          </div>
+      <div class="box">
+        <div class="imgBox">
+            <img class="imgIlustrativa" src="/Canarinho-Bot/src/img/sticker1.png" width="650px">
         </div>
-        <div class="">
-          <img class="imgIlustrativa">
+        <div class="contentBox">
+            <h2 class="produto-título"> COMO FUNCIONAMOS? </h2>
+            <p class="produto-descrição"> Somos uma extensão de gerenciamento de lives compatível com as melhores plataformas atuais. </p>
+            <p class="produto-descrição"> Suas contas serão vinculadas e num clique conectados pelo navegador! Juntando conforto e praticidade, 
+                a Canarinho Bot dá proteção e segurança para suas lives, além de análise de dados em tempo real. </p>
+            <p class="produto-descrição"> Junte-se ao time Canarinho e venha voar com a gente!</p>
         </div>
-          <br></br>
-        <h4 class="text-center" id="subtitle-EscolhaSeuPlano"> Escolha agora seu plano: </h4>
-          <br></br>
-      </section>
+    </div>
+        <br></br>
+          <h4 id="subtitle-EscolhaSeuPlano"> Escolha agora seu plano: </h4>
+        <br></br>
 
-          <section class="container-fluid bg-light">
-            <div class="row slide d-flex justify-content-center">
-                <article class="container-cards col-6 col-md-2 p-0 m-5">
-                  <div class="card text-center" style="width: 18rem;">
-                    <img src="/Canarinho-Bot/src/img/CByellow.png" class="rounded mx-auto d-block mt-4 mb-1 card-posicao-imagem" width="50">
-                    <div class="card-body">
-                      <h5 class="card-title">Basico</h5>
-                      <p class="card-text">R$00,00</p>
-                      <dt class="planos-beneficios">
-                          <dd>Segurança e proteção</dd>
-                          <dd>Administração de chat</dd>
-                          <dd>Efeitos sonoros</dd>
-                          <dd>Efeitos de imagem</dd>
-                      </dt>
-                      <button type="button" class="btn btn-outline-warning .col-6 .mx-auto .mt-2" id="btn-assinatura-plano2">Assinar</button>
-                    </div>
+        <section class="container-fluid">
+          <div class="row slide d-flex justify-content-center">
+              <article class="container-cards col-6 col-md-2 p-0 m-5">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="/Canarinho-Bot/src/img/CByellow.png" class="rounded mx-auto d-block mt-4 mb-1 card-posicao-imagem" width="50">
+                  <div class="card-body">
+                    <h5 class="card-title">Basico</h5>
+                    <p class="card-text">R$00,00</p>
+                    <dt class="planos-beneficios">
+                        <dd>Segurança e proteção</dd>
+                        <dd>Administração de chat</dd>
+                        <dd>Efeitos sonoros</dd>
+                        <dd>Efeitos de imagem</dd>
+                    </dt>
+                    <button type="button" class="btn btn-outline-warning .col-6 .mx-auto .mt-2" id="btn-assinatura-plano2">Assinar</button>
                   </div>
-                </article>
-                <article class="container-cards col-6 col-md-2 p-0 m-5">
-                  <div class="card text-center" style="width: 18rem;">
-                    <img src="/Canarinho-Bot/src/img/CBblack.png" class="rounded mx-auto d-block mt-5 mb-1 card-posicao-imagem" alt="..." width="60">
-                    <div class="card-body">
-                      <h5 class="card-title">Pro</h5>
-                      <p class="card-text">R$00,00</p>
-                      <dt class="planos-beneficios">
-                          <dd>Plano básico +</dd>
-                          <dd>Efeitos visuais</dd>
-                          <dd>Acesso ao fórum de interatividade</dd>
-                          <dd>Emojis personalizados</dd>
-                      </dt>
-                      <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" id="btn-assinatura-plano2">Assinar</button>
-                    </div>
-                  </div>
-                </article>
-                <article class="container-cards col-6 col-md-2 p-0 m-5">
-                  <div class="card text-center" style="width: 18rem;">
-                    <img src="/Canarinho-Bot/src/img/CBkids.png" class="rounded mx-auto d-block mt-4 mb-1 card-posicao-imagem" alt="..." width="50">
-                    <div class="card-body">
-                      <h5 class="card-title">Kids</h5>
-                      <p class="card-text">R$00,00</p>
-                      <dt class="planos-beneficios">
-                          <dd>Plano básico +</dd>
-                          <dd>Controle parental</dd>
-                          <dd>Aplicativo CanarinhoKids</dd>
-                          <dd>Interface facilitada</dd>
-                      </dt>
-                      <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" id="btn-assinatura-plano2">Assinar</button>
-                    </div>
-                  </div>
+                </div>
               </article>
-            </div>
-          </section> 
+              <article class="container-cards col-6 col-md-2 p-0 m-5">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="/Canarinho-Bot/src/img/CBblack.png" class="rounded mx-auto d-block mt-5 mb-1 card-posicao-imagem" alt="..." width="60">
+                  <div class="card-body">
+                    <h5 class="card-title">Pro</h5>
+                    <p class="card-text">R$00,00</p>
+                    <dt class="planos-beneficios">
+                        <dd>Plano básico +</dd>
+                        <dd>Efeitos visuais</dd>
+                        <dd>Acesso ao fórum de interatividade</dd>
+                        <dd>Emojis personalizados</dd>
+                    </dt>
+                    <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" id="btn-assinatura-plano2">Assinar</button>
+                  </div>
+                </div>
+              </article>
+              <article class="container-cards col-6 col-md-2 p-0 m-5">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="/Canarinho-Bot/src/img/CBkids.png" class="rounded mx-auto d-block mt-4 mb-1 card-posicao-imagem" alt="..." width="50">
+                  <div class="card-body">
+                    <h5 class="card-title">Kids</h5>
+                    <p class="card-text">R$00,00</p>
+                    <dt class="planos-beneficios">
+                        <dd>Plano básico +</dd>
+                        <dd>Controle parental</dd>
+                        <dd>Aplicativo CanarinhoKids</dd>
+                        <dd>Interface facilitada</dd>
+                    </dt>
+                    <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" id="btn-assinatura-plano2">Assinar</button>
+                  </div>
+                </div>
+            </article>
+          </div>
+        </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>

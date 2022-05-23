@@ -1,0 +1,8 @@
+@media (max-width: 1000px){
+    .box{
+        display: flex;
+        flex-direction: column;
+    } .imgBox{
+        size: 400px;
+    }
+}
