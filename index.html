@@ -7,13 +7,19 @@
       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
       <link rel="stylesheet" href="./src/css/index.css"> 
+      <style>
+        @font-face {
+            font-family: Peace Sans;
+            src: url("Peace Sans.otf") format('opentype'), url("Peace Sans Webfont.ttf") format('truetype');
+            font-weight: normal; font-style: normal;
+        } </style>
       <title> CANARINHO BOT </title>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-default bg-dark fixed style">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-default bg-dark fixed m-0">
+        <div class="container-fluid teste">
           <img id="logoCanarinho" src="./src/img/CanarinhoBotSized.png" width="225" class="d-inline-block align-text-top .ms-n1">
           <!-- <a class="navbar-brand fonte" href="#">Canarinho</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +28,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active cor-texto" aria-current="page" href="#">Home</a>
+                <a class="nav-link active cor-texto" id="current-page" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link cor-texto" href="#">Inscreva-se</a>
@@ -85,13 +91,16 @@
     </section>
     
     <main>
+      <div class="imagem">
+        <img src="./src/img/cbot.png" class="img-fluid imagem">
+      </div>
         <div class="descricao">
           <h3>Hey! Está sabendo da novidade que vem por aí? Já imaginou um Bot desenvolvido totalmente em PT-BR?
           <br> <br> 
-          <h2>Para isso criamos o Canarinho Bot!</h2>
+          <h2>Está chegando o Canarinho Bot!</h2>
           <br> <br> 
           <h3>Interface de Bot para streamers focando nas  plataformas: Twitch, YouTube & NimoTV.
-          <br>
+          <br> <br> 
           Nosso objetivo é auxiliar o chat, organizar mensagens, bloquear spam ou mensagens indevidas, além de mutar usuários.
         </h3>
       </div>
@@ -102,10 +111,20 @@
 
     </main>
 
-    <footer class="bg-secondary p-2 m-0 fixed bg-dark">
-    <p class="text-light text-center rodape"><h4>Rodapé</h4></p>
-
-
+    <footer class="bg-dark text-light p-1 col-xs fixed">
+      <div class="card text-center bg-dark">
+        <div class="card-body">
+          <h5 class="card-title">Conheça nossas redes</h5>
+          <div class="imagens">
+            <img src="./src/img/media_facebook.png" width="50" class="img-fluid rodape">
+            <img src="./src/img/media_instagram.png" width="50" class="img-fluid rodape">
+            <img src="./src/img/media_twitter.png" width="50" class="img-fluid rodape">
+          </div>
+        </div>
+        <div class="card-footer text-light">
+          Todos os direitos reservados ©2022 Resilia Educação
+        </div>
+      </div>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
