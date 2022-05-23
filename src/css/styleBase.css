@@ -6,8 +6,12 @@ body{
 }
 .cor-texto{
     color: #FFDB1D;
+} .cor-texto:hover{
+    color: #348974;
 } #currentpage{
     color: #348974;
+} #paginadeLogin{
+    text-decoration: none;
 }
 .box{
     margin-left: 6%; margin-right: 6%;
