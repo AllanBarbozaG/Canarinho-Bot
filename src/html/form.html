@@ -92,7 +92,7 @@
                         <input id="cep" type="text" name="cep" maxlength="8" pattern="[0-9]{8}" required>
                     </div>
                     <div class="campoForm cep">
-                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep" onclick="consultarCep()">Pesquisar Cep</button>
+                        <button type="button" class="btn btn-outline-warning .col-6 .mx-auto" name="btnPesquisarCep" id="pesquisar-cep" onclick="buscarCep()">Pesquisar Cep</button>
                         <div id="return"></div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                         </div>
                         <div class="containerForm">
                             <div class="campoForm">
-                                <button type="submit" class="btn btn-outline-warning .col-6 .mx-auto">Enviar</button>
+                                <button type="submit" id="btn-enviar" class="btn btn-outline-warning .col-6 .mx-auto">Enviar</button>
                             </div>
                             <div class="campoForm">
                                 <button type="reset" class="btn btn-outline-warning .col-6 .mx-auto">Limpar</button>
@@ -174,7 +174,10 @@
         </form>
     </main>
 
-<script src="../front/models/listaEsperaModel.js"></script>
+<script src="../front/models/listaEsperaMEndereco.js"></script>
+<script src="../front/models/listaEsperaMLogin.js"></script>
+<script src="../front/models/listaEsperaMPessoa.js"></script>
+<script src="../front/models/listaEsperaMPlanos.js"></script>
 <script src="../front/controllers/listaEsperaController.js"></script>
 <script src="../front/view/listaEsperaView.js"></script>
 </body>

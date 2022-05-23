@@ -23,5 +23,4 @@ class ListaEsperaView {
     .addEventListener('click', event => {
       event.preventDefault();
       listaEspera.cadastrar();
-      document.querySelector("#form-cadastro").reset();
     })
