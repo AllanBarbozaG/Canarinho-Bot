@@ -14,10 +14,20 @@ body {
   color:#348974;
 }
 .box-form{
-  background-color: #FFDB1D;
+  background-color: rgb(25, 24, 36);
   margin-left: 5%;
   margin-right: 5%;
+  color: #FFDB1D;
+  
 }
+
+#btn-cadastro{
+  margin-left: 46%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
 .box-2{
   display: flex;
   flex-direction: row;
@@ -51,7 +61,7 @@ input {
 ::-webkit-scrollbar-thumb {
   background-color: var(--medio);
   border-radius: 10px;
-  border: 3px solid #fff;
+  border: 3px solid #FFDB1D;
 }
 .botao-cor-especial:hover {
   background-color: var(--claro);
