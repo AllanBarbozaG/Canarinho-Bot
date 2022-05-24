@@ -1,9 +1,3 @@
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Questrial', sans-serif;
-  background-color: rgb(25, 24, 36);
-}
 html,
 body {
   width: 100%;
@@ -48,13 +42,6 @@ body {
 input {
   caret-color: var(--agua);
 }
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--medio) #fff;
-  scroll-behavior: smooth;
-  font-family: "Exo", sans-serif;
-}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -66,100 +53,10 @@ input {
   border-radius: 10px;
   border: 3px solid #fff;
 }
-
-.botao-cor-especial {
-  background-color: var(--medio);
-  color: #fff;
-  transition: 0.3s;
-}
-
 .botao-cor-especial:hover {
   background-color: var(--claro);
   
 }
-
-.cor-link {
-  color: var(--claro);
-  transition: 0.3s;
-}
-
-.cor-link:hover {
-  color: var(--agua);
-}
-
-.espaco-label {
-  margin: 0.5rem 0;
-}
-
-.card-posicao-imagem {
-  object-fit: contain;
-  height: 140px;
-  padding: 0.5rem;
-}
-
-.artigo-chamada-principal {
-  margin: 2rem 2rem 3rem 2rem;
-  padding: 2.5rem;
-  height: calc(100vh - 250px);
-}
-
-.artigo-titulo-principal {
-  font-size: 2.8rem;
-}
-
-.artigo-titulo-nome {
-  font-family: "Cinzel Decorative", cursive;
-  font-weight: 700;
-}
-
-.artigo-img-principal {
-  width: 35rem;
-}
-
-.artigo-img-descricao {
-  width: 25rem;
-}
-
-.artigo-descricao-principal {
-  margin: 4rem 0;
-  padding: 2rem;
-  align-items: center;
-}
-
-.artigo-texto-descricao {
-  font-size: 1.5rem;
-  padding-right: 3rem;
-}
-
-.artigo-cartao {
-  height: 25rem;
-  width: 25rem;
-  margin: 1rem;
-}
-
-.artigo-cartao-interno {
-  height: 2rem;
-}
-
-.acordeao-tamanho {
-  width: 60%;
-  margin: 0 auto 1rem auto;
-}
-
-
-.secao-fonte-titulo {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  margin: 1rem auto;
-}
-
-.secao-fonte-texto {
-  font-size: 1.4rem;
-  width: 90%;
-  margin: 1rem auto;
-}
-
 .card-externo,
 .card-externo-variavel {
   margin: 0.5rem;
@@ -169,7 +66,6 @@ input {
   box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.2);
   color: #FFDB1D;
 }
-
 .botao-cor-gratis {
   background-color: #FFDB1D;
   border: 1px solid;
