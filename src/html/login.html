@@ -39,53 +39,36 @@
     </nav>
   </header>
 
+  <main>
+    <div id="img-login"></div>
 
-
-
-  <div id="form-div">
-    <form id="login-form">
-      <div class="form-group column">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-        <div class="col-sm-10">
-          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    <div id="form-div">
+      
+      <form id="login-form">
+        <h5>Acessar plataforma</h5>
+        <div class="form-group column campoForm">
+          <label for="inputEmail3"  class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" id="email-input" class="form-control" id="inputEmail3" placeholder="Email" required>
+            <p id="require-p" style="display: none"> </p>
+          </div>
         </div>
-      </div>
-      <div class="form-group column">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+        <div class="form-group column campoForm">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Senha" required>
+          </div>
         </div>
-      </div>
-      <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="form-group row">
+          <div class="col-sm-10 btn-div">
+            <button type="submit" id="submit-btn" class="btn btn-outline-warning .col-6 .mx-auto">Acessar</button>
+            <p id="recoverPass-p"><a class="cor-texto" href="./recsenha.html">Esqueci minha senha</a></p>
+          </div>
+          
         </div>
-      </div>
-    </form>
-  </div>
-
-
-
-
-
-  
-
-  <form>
-    
-    <label for="email-input">Informe o email cadastrado</label>
-    <br>
-    <input id="email-input">
-    <br><br>
-    <label for="senha-input">Informe sua senha</label>
-    <br>
-    <input id="senha-input"> 
-    <br><br>
-    <button type="submit" id="submit-btn">Recuperar senha</button> 
-
-  </form>
-  
-
-
+      </form>
+    </div>
+  </main>
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
