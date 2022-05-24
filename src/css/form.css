@@ -1,3 +1,8 @@
+.navbar {
+    --bs-navbar-active-color: #348974;
+    --bs-navbar-hover-color: #348974;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,6 +11,19 @@ body {
     font-size: medium;
     color: #FFDB1D;
 }
+
+h1{
+    font-family: 'Questrial', sans-serif;
+}
+
+/*NAV*/
+.cor-texto{
+    color: #FFDB1D;
+} 
+
+/* #ativo {
+    color: #348974;
+} */
 
 /*Formulário*/
 main {

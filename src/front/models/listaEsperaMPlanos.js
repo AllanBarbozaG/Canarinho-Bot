@@ -1,16 +1,16 @@
 //Model dos Planos
 class Planos {
-    #plano;
+    #planos;
     #assinatura;
 
     mostrar() {
         return {
-            plano: this.#plano,
+            planos: this.#planos,
             assinatura: this.#assinatura,
         }
     }
-        set plano(value) { this.#plano = value }
-        get plano() { return this.#plano }
+        set planos(value) { this.#planos = value }
+        get planos() { return this.#planos }
   
         set assinatura(value) { this.#assinatura = value }
         get assinatura() { return this.#assinatura }

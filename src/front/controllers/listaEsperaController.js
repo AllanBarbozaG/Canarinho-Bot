@@ -9,6 +9,8 @@ class ListaEsperaController {
       try {
         const pessoa = new Pessoa;
         const endereco = new Endereco;
+        const login = new Login;
+        const planos = new Planos;
 
         pessoa.nome = this.input("nome");
         pessoa.sobrenome = this.input("sobrenome");
@@ -19,9 +21,18 @@ class ListaEsperaController {
         endereco.cidade = this.input("cidade");
         endereco.estado = this.input("estado");
 
+        login.email = this.input("email");
+        login.senha = this.input("senha");
+        login.confirmSenha = this.input("confirmSenha");
+
+        planos.planos = this.input("planos");
+        planos.assinatura = this.input("assinatura");
+
         this.cadastros.push({
           pessoa: pessoa.mostrar(),
-          endereco: endereco.mostrar()
+          endereco: endereco.mostrar(),
+          planos: planos.mostrar(),
+
         })
 
         console.log(this.cadastros);
@@ -38,8 +49,6 @@ class ListaEsperaController {
           const view = new ListaEsperaView();
           view.renderEndereco(json);
         })
-        .catch(response => {
-
-        })
+        .catch(response => { })
     }
   }
