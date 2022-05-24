@@ -18,12 +18,12 @@ class EmailModel {
           emailDominio.lastIndexOf('.') < emailDominio.length - 1)
         {
         this.email = email;
-        console.log(`email: ${this.email} validado com sucesso!`);
       } else {
         throw new Error(`email: ${email}  inválido!`);
       }
+      console.log(`email: ${this.email} validado com sucesso!`);
     } catch(erro) {
-      console.error(erro)
+      console.error(erro);
     }
   }
 }
