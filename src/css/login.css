@@ -1,0 +1,41 @@
+body{
+  background-color: #343a40;
+}
+.cor-texto{
+  color: #FFDB1D;
+} 
+.cor-texto:hover{
+  color: #348974;
+}
+ #currentpage{
+  color: #348974;
+}
+#home, #subscribe, #profile, #contact {
+  color: #FFDB1D;
+}
+#home:hover, #subscribe:hover, #profile:hover, #contact:hover {
+  color: #348974;
+}
+ 
+
+#login-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
+
+
+.cor-hamb-icon {
+  color: white;
+}
+
+.nav-link-css {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.altura {
+  height: 100%;
+}
