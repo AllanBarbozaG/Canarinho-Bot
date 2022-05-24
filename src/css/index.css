@@ -1,15 +1,27 @@
 body{
     background-color: rgb(25, 24, 36);
 }
-/* navbar */
-/* .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
+.fonte{
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    color: gold;
 }
-.style{
-   background-color: rgb(25, 24, 36); 
-   border-color: rgb(25, 24, 36);
-} */
+.cor-texto{
+    color: goldenrod;
+    text-decoration: none;
+}
+.cor-texto:hover{
+    color: #348974;
+}
+#current-page{
+    color: #348974;
+}
+.imagem{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    max-width: 558px;
+}
 .descricao{
     margin-top: 7%;
     margin-left: auto;
@@ -18,10 +30,8 @@ body{
     color:gold;
     text-align: justify;
 }
-.fonte{
-    font-family: 'Pacifico', cursive;
-    font-size: x-large;
-    color: gold;
+h2{
+    font-family: Peace Sans;
 }
 .precadastro{
     text-align: center;
@@ -35,10 +45,15 @@ body{
 .link{
     text-decoration: none;
 }
-.cor-fundo{
-    background-color: blanchedalmond;
+.imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
 }
-.cor-texto{
-    color: goldenrod;
-    text-decoration: none;
+.rodape{
+    margin: 1%;
 }
+/* .teste{
+    background-color: rgb(25, 24, 36);
+} */
