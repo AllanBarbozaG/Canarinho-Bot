@@ -1,6 +1,6 @@
 
 <div align='center'>
-    <img src='/img/canarinhoLogoReadme.png' width='300px'>
+    <img src='/Canarinho-Bot/src/img/canarinhoLogoReadme.png' width='300px'>
  </div> 
  
  ##
@@ -8,7 +8,7 @@
  <div align='center'>
        ![languageJS](https://img.shields.io/badge/language-JavaScript-yellow) 
        [![plataformWEB](https://img.shields.io/badge/plataform-web-blue)]()
-</div>
+ </div>
 
 ##
 
