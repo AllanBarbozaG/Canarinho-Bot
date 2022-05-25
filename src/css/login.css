@@ -31,7 +31,7 @@ main {
 #img-login {
   width: 30%;
   height: 75%;
-  background-image: url(/src/imagens/img-login.png);
+  background-image: url(/Canarinho-Bot/src/imagens/img-login.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: auto;
@@ -105,6 +105,17 @@ main {
 }
 #recoverPass-p {
   padding-top: 5%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--medio);
+  border-radius: 10px;
+  border: 3px solid #FFDB1D;
 }
 
 
