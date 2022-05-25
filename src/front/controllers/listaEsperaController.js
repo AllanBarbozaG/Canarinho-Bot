@@ -2,7 +2,7 @@ class ListaEsperaController {
     cadastros = [];
 
     input(selector) {
-      return document.querySelector(`#${selector}`).value;
+      return document.querySelector(selector).value;
     }
 
     cadastrar() {
@@ -12,21 +12,21 @@ class ListaEsperaController {
         const login = new Login;
         const planos = new Planos;
 
-        pessoa.nome = this.input("nome");
-        pessoa.sobrenome = this.input("sobrenome");
+        pessoa.nome = this.input("#nome");
+        pessoa.sobrenome = this.input("#sobrenome");
 
-        endereco.cep = this.input("cep");
-        endereco.rua = this.input("rua");
-        endereco.bairro = this.input("bairro");
-        endereco.cidade = this.input("cidade");
-        endereco.estado = this.input("estado");
+        endereco.cep = this.input("#cep");
+        endereco.rua = this.input("#rua");
+        endereco.bairro = this.input("#bairro");
+        endereco.cidade = this.input("#cidade");
+        endereco.estado = this.input("#estado");
 
-        login.email = this.input("email");
-        login.senha = this.input("senha");
-        login.confirmSenha = this.input("confirmSenha");
+        login.email = this.input("#email");
+        login.senha = this.input("#senha");
+        login.confirmSenha = this.input("#confirmSenha");
 
-        planos.planos = this.input("planos");
-        planos.assinatura = this.input("assinatura");
+        planos.planos = this.input("input[name='planos']:checked");
+        planos.assinatura = this.input("input[name='assinatura']:checked");
 
         this.cadastros.push({
           pessoa: pessoa.mostrar(),
@@ -37,7 +37,7 @@ class ListaEsperaController {
 
         console.log(this.cadastros);
       } catch (error) {
-        console.log(`Um erro foi encontrado: ${error.message}`);
+        console.error(error);
       }
     }
     
@@ -46,9 +46,16 @@ class ListaEsperaController {
       fetch(url)
         .then(response => response.json())
         .then(json => {
-          const view = new ListaEsperaView();
-          view.renderEndereco(json);
+          console.log(json);
+          if (json.erro == "true") {
+            alert ("CEP não encontrado");
+          } else {
+            const view = new ListaEsperaView();
+            view.renderEndereco(json);
+          }
         })
-        .catch(response => { })
+        .catch(response => {
+          alert("CEP não encontrado");
+        })
     }
   }
