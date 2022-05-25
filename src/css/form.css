@@ -1,0 +1,110 @@
+.navbar {
+    --bs-navbar-active-color: #348974;
+    --bs-navbar-hover-color: #348974;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 24, 36);
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    color: #FFDB1D;
+}
+
+h1{
+    font-family: 'Questrial', sans-serif;
+}
+
+/*NAV*/
+.cor-texto{
+    color: #FFDB1D;
+} 
+
+/* #ativo {
+    color: #348974;
+} */
+
+/*Formulário*/
+main {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: rgb(25, 24, 36);
+    margin: 5% auto;
+    padding: 5% 10;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.campoForm {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.campoForm label {
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.campoForm input {
+    box-sizing: content-box;
+    outline: none;
+    border-radius: 15px;
+    border-color: #FFDB1D;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.campoForm.top {
+    justify-content: flex-start;
+}
+
+.campoForm.cep {
+    flex-grow: 0;
+}
+
+#cepForm {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#cepForm input {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.imagem{
+    width: 300px;
+}
+
+#gamer {
+    max-width: 100%;
+    object-fit:contain ;
+}
+
+#planoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*botoes*/
+.link {
+    text-decoration: none;
+}
+.cor-fundo {
+    background-color: blanchedalmond;
+}
+.cor-texto {
+    color: #FFDB1D;
+    text-decoration: none;
+}
