@@ -6,42 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/Canarinho-Bot/src/css/login.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon_package_v0.16/">
-  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon_package_v0.16/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon_package_v0.16/favicon-16x16.png">
-  <link rel="manifest" href="../img/favicon_package_v0.16/site.webmanifest">
-  <link rel="mask-icon" href="../img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>Log In Canarinho</title>
+  <title>Canarinho</title>
 </head>
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed m-0">
-      <div class="container-fluid">
-        <img id="logoCanarinho" src="/Canarinho-Bot/src/img/CanarinhoBotSized.png" width="225" class="d-inline-block align-text-top .ms-n1 cor-texto">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active cor-texto" id="current-page" aria-current="page" href="/Canarinho-Bot/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link cor-texto" href="/Canarinho-Bot/src/html/form.html">Inscreva-se</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link cor-texto" href="/Canarinho-Bot/src/html/planos.html">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link cor-texto" href="/Canarinho-Bot/src/html/contato.html">Contato</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-outline-warning .col-6 .mx-auto"><a class="cor-texto" href="/Canarinho-Bot/src/html/login.html">Login</a></button>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+      <img id="logoCanarinho" src="/Canarinho-Bot/src/img/CanarinhoBotSized.png" width="225" class="d-inline-block align-text-top .ms-n1 cor-texto">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-between" >
+          <li class="nav-item">
+            <a class="nav-link"  id="home" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="subscribe" href="#">Inscreva-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="profile" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="contact" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-warning .col-6 .mx-auto"><a class="cor-texto" href="paginadelogin.html">Login</a></button>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
