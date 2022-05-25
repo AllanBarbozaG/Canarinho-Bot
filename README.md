@@ -1,6 +1,6 @@
 
 <div align='center'>
-    <img src='/Canarinho-Bot/src/img/canarinhoLogoReadme.png' width='300px'>
+    <img src='/Canarinho-Bot/src/img/canarinhoLogo.png' width='300px'>
  </div> 
  
  ##
