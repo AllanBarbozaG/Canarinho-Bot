@@ -54,14 +54,24 @@ h2{
 .rodape{
     margin: 1%;
 }
-::-webkit-scrollbar {
+:root {
+    --escuro: rgb(25, 24, 36);
+    --medio: #FFDB1D;
+    --claro: #FFDB1D;
+    --agua: #FFDB1D;
+    --cinza: #FFDB1D;
+  }
+  input {
+    caret-color: var(--agua);
+  }
+  ::-webkit-scrollbar {
     width: 10px;
-}
-::-webkit-scrollbar-track {
+  }
+  ::-webkit-scrollbar-track {
     background: #fff;
-}
-::-webkit-scrollbar-thumb {
+  }
+  ::-webkit-scrollbar-thumb {
     background-color: var(--medio);
     border-radius: 10px;
     border: 3px solid #FFDB1D;
-}
+  }
