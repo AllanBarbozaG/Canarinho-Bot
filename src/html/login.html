@@ -4,20 +4,77 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/src/css/login.css">
   <title>Log In Canarinho</title>
 </head>
 <body>
-  <p>Realize seu login para acesso à plataforma!</p>
-  <p>Acessar plataforma</p>
-  <p>Testando proteção da branch master</p>
-  <p>Testando proteção da branch master - 2a tentativa</p>
-  <p>Testando proteção da branch master - 3a tentativa</p>
-  <p>Acessar plataforma</p>
 
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  
-  
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-between" >
+          <li class="nav-item">
+            <a class="nav-link"  id="home" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="subscribe" href="#">Inscreva-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="profile" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cor-texto" id="contact" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-warning .col-6 .mx-auto"><a class="cor-texto" href="paginadelogin.html">Login</a></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
+  <main>
+    <div id="img-login"></div>
+
+    <div id="form-div">
+      
+      <form id="login-form">
+        <h5>Acessar plataforma</h5>
+        <div class="form-group column campoForm">
+          <label for="inputEmail3"  class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" id="email-input" class="form-control" id="inputEmail3" placeholder="Email" required>
+            <p id="require-p" style="display: none"> </p>
+          </div>
+        </div>
+        <div class="form-group column campoForm">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Senha" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10 btn-div">
+            <button type="submit" id="submit-btn" class="btn btn-outline-warning .col-6 .mx-auto">Acessar</button>
+            <p id="recoverPass-p"><a class="cor-texto" href="./recsenha.html">Esqueci minha senha</a></p>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </main>
   
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="/src/front/models/email-model.js"></script>
+  <script src="/src/front/views/email-view.js"></script>
+  <script src="/src/front/controllers/email-controller.js"></script>
 </body>
 </html>

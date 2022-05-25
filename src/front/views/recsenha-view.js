@@ -5,7 +5,7 @@ class EmailView {
     $('#require-p').text(`Email inválido`) 
   };
 
-  confirmaEmail() {
+  confirmaEmail(email) {
     
     document.body.innerHTML = `
 
@@ -38,17 +38,16 @@ class EmailView {
       </nav>
     </header>
 
-    <div id="confirmaLogin-div">
+    <div id="confirmaRec-div">
       <h1>
-        Login realizado com sucesso!
+        Um email de recuperação de senha foi enviado para <strong>${email}</strong>.
       </h1>
       
-      <button class="btn btn-outline-warning .col-6 .mx-auto">Continuar</button>
+      <button class="btn btn-outline-warning .col-6 .mx-auto"><a class="cor-texto" href="./login.html">Login</a></button>
     </div>
     `
   };
 };
-
 
 /*confirmaEmail(email) {
   document.body.innerHTML = `

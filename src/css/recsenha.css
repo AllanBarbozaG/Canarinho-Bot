@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 24, 36);
+  font-family: 'Nunito', sans-serif;
+  font-size: medium;
+  color: #FFDB1D;
+}
+main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  margin-top: 5%;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cor-texto{
+  color: #FFDB1D;
+} 
+.cor-texto:hover{
+  color: #348974;
+}
+#home, #subscribe, #profile, #contact {
+  color: #FFDB1D;
+}
+#home:hover, #subscribe:hover, #profile:hover, #contact:hover {
+  color: #348974;
+}
+#img-login {
+  width: 30%;
+  height: 75%;
+  background-image: url(/img-login.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+}
+
+/*Formulário*/
+#form-div {
+  width: 45%;
+  height: 100%;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-top: 2%;
+}
+#recsenha-form {
+  border: 1px solid #FFDB1D;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 0px 0px 5px;
+}
+#recsenha-form h5 {
+  text-align: center;
+}
+#require-p {
+  margin: 0;
+  font-size: 2vh;
+}
+.campoForm {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+.campoForm label {
+  color: whitesmoke;
+  font-size: 1em;
+}
+.campoForm .col-sm-10 input {
+  box-sizing: content-box;
+  outline: none;
+  border-radius: 15px;
+  border-color: #FFDB1D;
+  background-color: transparent;
+  color: whitesmoke;
+}
+.campoForm.top {
+  justify-content: flex-start;
+}
+.form-group .btn-div {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#confirmaRec-div {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+#confirmaRec-div button {
+  width: 10%;
+}
+
