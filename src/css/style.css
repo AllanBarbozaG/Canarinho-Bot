@@ -34,11 +34,14 @@ body {
   border-color: #FFDB1D;
   background-color: transparent;
   color: whitesmoke;
+  border-radius: 15px;
 }
 #exampleFormControlTextarea1{
   border-color: #FFDB1D;
   background-color: transparent;
   color: whitesmoke;
+  border-radius: 15px;
+
 }
 #btn-cadastro{
   margin-left: 46%;
