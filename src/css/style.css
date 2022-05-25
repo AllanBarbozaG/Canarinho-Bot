@@ -1,0 +1,134 @@
+html,
+body {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: rgb(25, 24, 36);
+}
+.imagens{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+}
+#current-page{
+  color:#348974;
+}
+
+.cor-texto{
+  color: #FFDB1D;
+}
+#home, #subscribe, #profile{
+  color: #FFDB1D;
+}
+#home:hover, #subscribe:hover, #profile:hover{
+  color: #348974;
+}
+.box-form{
+  background-color: rgb(25, 24, 36);
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #FFDB1D;
+}
+#btn-cadastro{
+  margin-left: 46%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+#btn-link{
+  color: #FFF;
+}
+
+#btn-git{
+  color: #FFF;
+}
+.box-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+.rodape{
+  margin: 1%;
+}
+.cor-texto{
+  color: goldenrod;
+  text-decoration: none;
+}
+.cor-texto:hover{
+  color: #348974;
+}
+:root {
+  --escuro: rgb(25, 24, 36);
+  --medio: #FFDB1D;
+  --claro: #FFDB1D;
+  --agua: #FFDB1D;
+  --cinza: #FFDB1D;
+}
+input {
+  caret-color: var(--agua);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--medio);
+  border-radius: 10px;
+  border: 3px solid #FFDB1D;
+}
+.botao-cor-especial:hover {
+  background-color: var(--claro);
+  
+}
+.card-externo,
+.card-externo-variavel {
+  margin: 0.5rem;
+  height: 21rem;
+  min-width: 20rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.2);
+  color: #FFDB1D;
+}
+.botao-cor-gratis {
+  background-color: #FFDB1D;
+  border: 1px solid;
+  transition: 0.3s;
+}
+
+.botao-cor-gratis:hover {
+  color: #FFDB1D;
+}
+
+.card-contato {
+  margin: 0.5rem;
+  height: 22.5rem;
+  min-width: 10rem;
+  max-width: 15rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 0.6rem #FFDB1D;
+}
+
+.titulo-time{
+  color: #FFDB1D;
+}
+
+.text-center{
+  color: #FFDB1D;
+}
+
+.titulo-integrante {
+  margin: 5rem 0;
+  font-size: 2.4rem;
+}
+
+.nome-integrante {
+  margin: 0.5rem 0;
+  font-size: 1.0rem;
+  text-align: center;
+  color: #FFDB1D;
+}
+
+
