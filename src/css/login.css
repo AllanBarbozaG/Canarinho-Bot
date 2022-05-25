@@ -31,14 +31,13 @@ main {
 #img-login {
   width: 30%;
   height: 75%;
-  background-image: url(/img-login.png);
+  background-image: url(/src/imagens/img-login.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 8%;
 }
-
 
 /*Formulário*/
 #form-div {
