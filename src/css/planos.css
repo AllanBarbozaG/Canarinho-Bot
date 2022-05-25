@@ -41,7 +41,7 @@ body{
     font-size: 40px; color: #FFDB1D;
     font-family: Peace Sans;
 }
-.card-title{
+.card-title-plans{
     font-size: 20px; color: rgb(25, 24, 36);
 }
 .card-text{
@@ -59,3 +59,26 @@ body{
 #btn-assinatura{
     margin: 3%; margin-top: 15px;
 }
+
+/* css de estruturas do index */
+:root {
+    --escuro: rgb(25, 24, 36);
+    --medio: #FFDB1D;
+    --claro: #FFDB1D;
+    --agua: #FFDB1D;
+    --cinza: #FFDB1D;
+  }
+  input {
+    caret-color: var(--agua);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--medio);
+    border-radius: 10px;
+    border: 3px solid #FFDB1D;
+  }
