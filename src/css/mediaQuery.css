@@ -1,0 +1,21 @@
+@media (max-width: 1000px){
+    .box{
+        display: flex;
+        max-width: 980px;
+        flex-direction: column;
+        justify-content: center;
+    } .produto-título{
+        margin:1%;
+        text-align:center;
+        font-size: 35px; 
+    } .produto-descrição{
+        margin: 2%;
+        text-align:center;
+        font-size: 18px;
+    } .imgBox{
+        display: flex; justify-content: center; 
+    } #subtitle-EscolhaSeuPlano{
+        text-align: center;
+        font-size: 30px; color: #348974;
+    }
+}
