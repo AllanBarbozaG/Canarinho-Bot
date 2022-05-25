@@ -6,7 +6,7 @@
  ##
  
  <div align='center'>
-       ![image]({https://img.shields.io/badge/language-JavaScript-yellow})
+       ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
        ![languageJS](https://img.shields.io/badge/language-JavaScript-yellow) 
        [![plataformWEB](https://img.shields.io/badge/plataform-web-blue)]()
  </div>
