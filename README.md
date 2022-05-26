@@ -49,10 +49,10 @@
   ## 💻 WebSite
   
  <div align='center'>
+   <img src='screenshotwebpageCanarinho.png'>
    <img src='...'>
    <img src='...'>
-   <img src='...'>
-   <img src='...'>
+   <img src='screenshotwebpageCanarinho4.png'>
  </div>
   
   ## 🛠️ Tecnologia 
