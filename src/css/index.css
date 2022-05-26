@@ -1,27 +1,25 @@
 @media (max-width: 1000px){
-    .img{
+    .texto{
+        margin-left: 5%;
         display: flex;
-        max-width: 980px;
         flex-direction: column;
-        justify-content: center;
+        text-align:center;
+        font-size: 18px;
     } .canarinho{
         margin:1%;
         text-align:center;
         font-size: 35px; 
-    } .texto{
-        margin: 2%;
-        text-align:center;
-        font-size: 18px;
-    }
+    } .img{
+        max-width: 956px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    } 
 }
 
 body{
     background-color: rgb(25, 24, 36);
-}
-.fonte{
-    font-family: 'Pacifico', cursive;
-    font-size: x-large;
-    color: gold;
 }
 .cor-texto{
     color: goldenrod;
@@ -34,30 +32,30 @@ body{
     color: #348974;
 }
 .imagem{
-    float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    max-width: 558px;
-    max-height: 558px;
+    margin-left: 3%;
+    float:left;
+    max-width: 500px;
+    max-height: 500px;
 }
 .descricao{
-    margin-top: 7%;
+    margin-top: 10%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 2%;
     width: 70%;
     color:gold;
     text-align: justify;
 }
 h2{
+    font-size: 50px;
     font-family: Peace Sans;
 }
 .precadastro{
+    display: inline-block;
     text-align: center;
-    text-decoration: none;
     color:aliceblue;
     background-color: #348974;
-    padding: 10px;
-    margin: 20px;
+    padding: 1%;
+    margin: 5%;
     border-radius: 50px;
 }
 .link{
