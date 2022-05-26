@@ -45,7 +45,13 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar no
   
 - Interface facilitada (Kids)
   
-  
+  <div align='center'>
+   <img src='...' width="170px;" alt="Simulação de produto"/><br>
+   <sub>
+       <b>Imagem meramente ilustrativa</b>
+   </sub>
+  </div>
+                
   ## 🛠️ Tecnologias utilizadas 
   
     - HTML5 
@@ -55,6 +61,7 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar no
     - Bootstrap
    
     - JavaScript
+   
    
   ## Contribuintes 👩‍💻👨‍💻
   <table>
@@ -101,7 +108,9 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar no
         </td>
     </tr>
    </table>
-   
+  
+  <br></br> 
+  
 ## 💻 WebSite
   
  <div align='center'>
