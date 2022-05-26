@@ -12,18 +12,6 @@ body {
     color: #FFDB1D;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  ::-webkit-scrollbar-track {
-    background: #fff;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--medio);
-    border-radius: 10px;
-    border: 3px solid #FFDB1D;
-  }
-
   :root {
     --escuro: rgb(25, 24, 36);
     --medio: #FFDB1D;
@@ -46,8 +34,9 @@ body {
     border: 3px solid #FFDB1D;
   }
 
-h1{
-    font-family: 'Questrial', sans-serif;
+h1 {
+    Font-family: Peace Sans; 
+
 }
 
 /*NAV*/
