@@ -76,7 +76,7 @@
         </td>
         <td align="center">
           <a href="https://github.com/AllanBarbozaG">
-            <img src='...' width="170px;" alt="Foto de perfil do Github"/><br>
+            <img src='https://avatars.githubusercontent.com/u/102266840?v=4' width="170px;" alt="Foto de perfil do Github"/><br>
             <sub>
               <b>Allan Barboza</b>
             </sub>
