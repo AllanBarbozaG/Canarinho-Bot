@@ -1,11 +1,12 @@
 
 <div align='center'>
-    <img src='src/img/CanarinhoBotSized.png' width='300px'>
+    <img src='src/img/CanarinhoBotSized.png' width='500px'>
  </div> 
  
- ##
+
  
  <div align='center'>
+       <br></br>
        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
        <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
@@ -13,19 +14,18 @@
 
 ##
 
-# 🐤 Canarinho Bot
+# 🐤 A Canarinho
 
 
-A Canarinho Bot veio a partir do projeto de 2° módulo do curso Resilia, cujo propósito era a criação de um produto digital. A ideia então foi um bot brasileiro multiplataforma. feito para auxiliar pequenos streamers e as necessidades de segurança de suas lives, melhora na comunicação (chat)
+A Canarinho veio a partir do projeto de 2° módulo do curso *Resilia*, cujo propósito era a criação de um produto digital para solucionar problemas de públicos específicos. A ideia então foi um bot brasileiro multiplataforma, feito para auxiliar pequenos streamers, com as necessidades de segurança de suas lives, melhora na comunicação (chat); empresas parceiras, com um dashboard de gestão para mais de um streamer; e pais preocupados com a adesão de seus filhos no cenário. 
 
-O projeto consiste apenas na criação do website da Canarinho Bot, sendo uma **simulação da venda do produto**. O desenvolvimento, portanto, foi tão somente do website e não do produto.
+O projeto consiste apenas na criação do website da Canarinho Bot, sendo uma **simulação da venda do produto**. O desenvolvimento, portanto, foi tão somente do website e não do bot em si.
     
-Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar o site!
+Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar nosso site!
 
-## CBot — O produto
-  Somos uma extensão de gerenciamento de lives compatível com as melhores plataformas atuais.
-  
-  Nosso objetivo é o máximo de praticidade e facilidade para o usuário. Sendo preciso apenas vincular suas contas à CBot, trazemos proteção e segurança para suas lives, além de análise de dados em tempo real. Tudo isso na simplicidade de seu navegador!
+## 🚀 CBot — O produto
+
+  Somos uma extensão de gerenciamento de lives compatível com as melhores plataformas atuais. Nosso objetivo é o máximo de praticidade e facilidade para o usuário. Sendo preciso apenas vincular suas contas à CBot, trazemos proteção e segurança para suas lives, além de análise de dados em tempo real. Tudo isso na simplicidade de seu navegador!
 
   Nossos benefícios incluem:
   
@@ -35,9 +35,9 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar o 
   
 - Efeitos sonoros e visuais
     
-- Fórum de interatividade (Pro)
+- Gestão de patrocínios (Pro)
   
-- Emojis personalizados (Pro)
+- Multi canais (Pro)
   
 - Controle parental (Kids)
   
@@ -45,20 +45,14 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar o 
   
 - Interface facilitada (Kids)
   
-  ## 💻 WebSite
   
- <div align='center'>
-   <img src='screenshotwebpageCanarinho.png'>
-   <img src='...'>
-   <img src='...'>
-   <img src='screenshotwebpageCanarinho4.png'>
- </div>
-  
-  ## 🛠️ Tecnologia 
+  ## 🛠️ Tecnologias utilizadas 
   
     - HTML5 
    
     - CSS3
+    
+    - Bootstrap
    
     - JavaScript
    
@@ -107,3 +101,12 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar o 
         </td>
     </tr>
    </table>
+   
+## 💻 WebSite
+  
+ <div align='center'>
+   <img src='/src/img/screenshotwebpageCanarinho.png'>
+   <img src='/src/img/screenshotwebpageCanarinho2.png'>
+   <img src='/src/img/screenshotwebpageCanarinho3.png'>
+   <img src='/src/img/screenshotwebpageCanarinho4.png'>
+ </div>
