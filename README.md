@@ -16,11 +16,11 @@
 # 🐤 Canarinho Bot
 
 
-    A Canarinho Bot veio a partir do projeto de 2° módulo do curso Resilia, cujo propósito era a criação de um produto digital. A ideia então foi um bot brasileiro multiplataforma. feito para auxiliar pequenos streamers e as necessidades de segurança de suas lives, melhora na comunicação (chat)
+A Canarinho Bot veio a partir do projeto de 2° módulo do curso Resilia, cujo propósito era a criação de um produto digital. A ideia então foi um bot brasileiro multiplataforma. feito para auxiliar pequenos streamers e as necessidades de segurança de suas lives, melhora na comunicação (chat)
 
-    O projeto consiste apenas na criação do website da Canarinho Bot, sendo uma **simulação da venda do produto**. O desenvolvimento, portanto, foi tão somente do website e não do produto.
+O projeto consiste apenas na criação do website da Canarinho Bot, sendo uma **simulação da venda do produto**. O desenvolvimento, portanto, foi tão somente do website e não do produto.
     
-    Clique [aqui](https://link-da-documentação) para visualizar o site!
+Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar o site!
 
 ## CBot — O produto
   Somos uma extensão de gerenciamento de lives compatível com as melhores plataformas atuais.
