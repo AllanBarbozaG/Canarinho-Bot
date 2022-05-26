@@ -14,7 +14,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 5%;
+        margin-left: 1%;
     } 
 }
 
@@ -31,23 +31,34 @@ body{
 #current-page{
     color: #348974;
 }
+h1{
+    margin-top: 8%;
+    text-align: center;
+    font-size: xx-large;
+}
 .imagem{
-    margin-left: 3%;
-    float:left;
-    max-width: 500px;
-    max-height: 500px;
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 428px;
 }
 .descricao{
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: 2%;
-    width: 70%;
-    color:gold;
-    text-align: justify;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:justify;
+        font-size: 14px;
+        color:gold;
+        margin-left: 10%;
+        margin-right: 10%;
 }
 h2{
     font-size: 50px;
     font-family: Peace Sans;
+    text-align: center;
 }
 .precadastro{
     display: inline-block;
@@ -55,7 +66,7 @@ h2{
     color:aliceblue;
     background-color: #348974;
     padding: 1%;
-    margin: 5%;
+    margin: 4%;
     border-radius: 50px;
 }
 .link{
