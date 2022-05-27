@@ -46,7 +46,7 @@ Clique [aqui](https://allanbarbozag.github.io/Canarinho-Bot/) para visualizar no
 - Interface facilitada (Kids)
   
   <div align='center'>
-   <img src='...' width="170px;" alt="Simulação de produto"/><br>
+   <img src='/src/img/simulaçãositeCanarinho.png' width="540px;" alt="Simulação de produto"/><br>
    <sub>
        <b>Imagem meramente ilustrativa</b>
    </sub>
